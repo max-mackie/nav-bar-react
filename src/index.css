@@ -204,6 +204,7 @@ nav {
   .nav-toggle {
     display: none;
   }
+  /* this important overwrites the inline css in the js */
   .links-container {
     height: auto !important;
   }

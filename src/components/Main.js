@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => {
+const Main = () => {
   return (
     <footer class="footer">
       <p>© Max Mackie 2021</p>
@@ -8,4 +8,4 @@ const Footer = () => {
   );
 };
 
-export { Footer };
+export { Main };

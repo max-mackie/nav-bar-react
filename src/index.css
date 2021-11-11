@@ -162,8 +162,15 @@ nav {
   transform: rotate(90deg);
 }
 .logo {
+  margin-top: 5px;
   height: 40px;
+  padding-top: 10px;
 }
+/* 
+.logoImage {
+  width: 10%;
+} */
+
 .links a {
   color: var(--clr-grey-3);
   font-size: 1rem;
@@ -231,3 +238,4 @@ nav {
     color: var(--clr-primary-7);
   }
 }
+

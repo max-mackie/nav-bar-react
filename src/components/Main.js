@@ -2,9 +2,11 @@ import React from "react";
 
 const Main = () => {
   return (
-    <footer class="footer">
-      <p>© Max Mackie 2021</p>
-    </footer>
+    <main className="section main-section">
+      <h1 className="center">Max Mackie</h1>
+      <p>could add extra line here if i want</p>
+      <button className="button">Lets Talk!</button>
+    </main>
   );
 };
 

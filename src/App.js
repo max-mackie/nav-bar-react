@@ -16,7 +16,7 @@ function App() {
     <>
       <Navbar />
       <Main />
-      <Spacer1 />
+      {/* <Spacer1 /> */}
       <AboutMe />
       <TechStack />
       <Projects />

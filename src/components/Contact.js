@@ -4,7 +4,7 @@ import { social } from "../data";
 const Contact = () => {
   return (
     <section id="contact" className="section">
-      <h2>Interested to work with me?</h2>
+      <h2>Interested in work with me?</h2>
       <button className="button">Lets talk</button>
       <div id="icon_links">
         <ul className="social-icons">

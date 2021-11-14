@@ -196,6 +196,7 @@ nav {
 .logo-text {
   font-family: "Permanent Marker";
   margin: 0px;
+  font-size: 1.5rem;
 }
 
 .links a {
@@ -271,7 +272,11 @@ nav {
 Main Section
 ===============
 */
-
+.main-section {
+  padding: 2rem 0;
+  color: #f1f5f8;
+  background-color: #1d3557;
+}
 /*
 =============== 
 Button

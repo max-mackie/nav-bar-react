@@ -15,9 +15,9 @@ function App() {
   return (
     <>
       <Navbar />
+      <Main />
+      <Spacer1 />
       <section id="content-body">
-        <Main />
-        {/* <Spacer1 /> */}
         <AboutMe />
         <TechStack />
         <Projects />

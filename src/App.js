@@ -16,12 +16,14 @@ function App() {
     <>
       <Navbar />
       <Main />
-      {/* <Spacer1 /> */}
-      <AboutMe />
-      <TechStack />
-      <Projects />
-      <Contact />
-      <Footer />
+      <Spacer1 />
+      <section id="content-body">
+        <AboutMe />
+        <TechStack />
+        <Projects />
+        <Contact />
+        <Footer />
+      </section>
     </>
   );
 }

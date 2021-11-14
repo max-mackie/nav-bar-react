@@ -20,7 +20,7 @@ const Navbar = () => {
     <nav>
       <div className="nav-center">
         <div className="nav-header">
-          <img src={logo} alt="logo" className="logo logoImage" />
+          <p className="logo-text">M.M.</p>
           <button
             className="nav-toggle"
             onClick={() => {

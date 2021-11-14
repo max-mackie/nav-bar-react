@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 
 const Projects = () => {
   return (
-    <section id="projects">
+    <section id="projects" className="section">
       <h2>Latest works</h2>
       <article>
         <img src="" alt="" />

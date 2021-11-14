@@ -1,14 +1,22 @@
 import React, { useState, useRef, useEffect } from "react";
+import { social } from "../data";
 
 const Contact = () => {
   return (
-    <section id="contact">
-      <h2>Interested to work with me?</h2>
+    <section id="contact" className="section">
+      <h2>Interested in work with me?</h2>
       <button className="button">Lets talk</button>
       <div id="icon_links">
-        <div id="github link"></div>
-        <div id="linkedin"></div>
-        <div id="cv"></div>
+        <ul className="social-icons">
+          {social.map((link) => {
+            const { id, url, icon } = link;
+            return (
+              <li key={id}>
+                <a href={url}>{icon}</a>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </section>
   );

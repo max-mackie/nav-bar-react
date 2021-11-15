@@ -273,7 +273,7 @@ Main Section
 ===============
 */
 .main-section {
-  padding: 2rem 0;
+  padding-top: 5rem;
   color: #f1f5f8;
   background-color: #1d3557;
 }
@@ -313,6 +313,9 @@ Button
 About Me Section
 ===============
 */
+#about-me {
+  margin-top: 5rem 0px;
+}
 
 #about-me-text {
   text-align: justify;

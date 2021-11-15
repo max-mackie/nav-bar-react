@@ -48,11 +48,7 @@ const config = {
       {
         test: /\.(png|svg|jpg|gif|pdf)$/,
         use: ["file-loader"],
-        query: {
-          outputPath: "./img/",
-          name: "[name].[ext]?[hash]",
-        },
-      }, // transpile image files
+      }, // transpile image files // transpile image files
     ],
   },
 };
